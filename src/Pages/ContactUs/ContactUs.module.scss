@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Cardo-Bold";
+  src: url("../../assets/fonts/cardo/Cardo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../../assets/fonts/inter/Inter-ExtraLight-BETA.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Section1
+
+.header {
+  height: 427px;
+  background: #1b3764;
+  opacity: 0.95;
+
+  h2 {
+    font-family: Cardo-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-bottom: 32px;
+  }
+
+  p {
+    font-family: Inter-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #b4c7e7;
+    margin-top: 28px;
+  }
+}
+
+.line {
+  width: 55px;
+  height: 0px;
+  border: 3px solid #ffca42;
+}
+
+// Section2
+
+.section2Left {
+  > h2 {
+    font-family: Cardo-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #1b3764;
+    margin-bottom: 22px;
+  }
+  > p {
+    font-family: Inter-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;
+    letter-spacing: -0.01em;
+    color: #969aa0;
+    margin-top: 27px;
+  }
+}
+
+.section2LeftImages {
+  h2 {
+    font-family: Cardo-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    color: #1b3764;
+    margin-top: 15px;
+  }
+  p {
+    font-family: Inter-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    color: #969aa0;
+  }
+}
+
+.nameInp {
+  width: 299px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #dce1e9;
+
+  background-image: url("../../assets/images/userIcon.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+
+  padding-left: 39px;
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.emailInp {
+  width: 299px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #dce1e9;
+
+  background-image: url("../../assets/images/mailIcon.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+
+  padding-left: 39px;
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin-left: 8px;
+}
+
+.phoneInp {
+  width: 606px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #dce1e9;
+
+  background-image: url("../../assets/images/phoneIcon.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+
+  padding-left: 39px;
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin-top: 15px;
+}
+
+.textarea {
+  width: 606px;
+  height: 220px;
+  background: #ffffff;
+  border: 1px solid #dce1e9;
+  margin-top: 15px;
+
+  background-image: url("../../assets/images/MessageIcon.png");
+  background-repeat: no-repeat;
+  background-position-y: 17px;
+  background-position-x: 17px;
+
+  padding-left: 45px;
+  padding-top: 12px;
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+}
+
+.section2RightCheck {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  input {
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border: 1px solid #dce1e9;
+    border-radius: 5px;
+  }
+  input:hover {
+    cursor: pointer;
+  }
+  p {
+    font-family: Inter-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: -0.01em;
+    color: #969aa0;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+}
+
+.section2Button {
+  /* Btn */
+
+  width: 606px;
+  height: 65px;
+  background: #ffca42;
+  border: none;
+
+  font-family: Cardo-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #1b3764;
+  transition: 0.5s;
+}
+
+.section2Button:hover {
+  background: #d5a93b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+// Section3
+
+.section3 {
+  min-height: 945px;
+  background: #f5f8fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > h2 {
+    font-family: Cardo-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1b3764;
+    margin-bottom: 22px;
+  }
+}
+
+.section3CardHeader {
+  font-family: Cardo-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  color: #1b3764;
+  border: none;
+  background-color: #ffffff00;
+}
+
+.section3CardText {
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+}
+
+.AccordionBody1 {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 1325.2px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section2Button {
+    margin-bottom: 20px;
+  }
+  .section3Acordeon {
+    flex-direction: column;
+  }
+  .AccordionBody1 {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 825.2px) {
+  .nameInp {
+    width: 230px;
+  }
+  .emailInp {
+    width: 230px;
+  }
+  .phoneInp {
+    width: 467px;
+  }
+  .textarea {
+    width: 467px;
+  }
+  .section2Button {
+    width: 467px;
+  }
+}
