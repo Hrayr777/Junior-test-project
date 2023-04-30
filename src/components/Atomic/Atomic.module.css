@@ -1,8 +1,9 @@
 .atomic {
     width: 100%;
-    min-height: 827px;
+    min-height: 650px;
     justify-content: center;
     align-items: center;
+    margin: 50px auto;
     background-color: #F5F8FC;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .atomicContent {
-    width: 1315px;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
