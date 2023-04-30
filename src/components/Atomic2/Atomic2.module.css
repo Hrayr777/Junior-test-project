@@ -1,5 +1,74 @@
 .atomicContainer {
     width: 292px;
     height: 396px;
-    background-color: red;
+}
+
+.atomicContainerTitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1B3764;
+    padding: 0 10px;
+}
+
+.atomicContainerSubTitle {
+    padding: 0 10px;
+    font-family: Inter;
+    line-height: 30px;
+    color: #969AA0;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.atomicContainerDesc {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.atomicContainerDescContent {
+    width: 40%;
+    height: 55px;
+    position: relative;
+}
+
+.atomicContainerDescCircle {
+    position: absolute;
+    background-color: #FFCA42;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    top: 5px;
+    left: 10px;
+}
+
+.atomicContainerDescTitle {
+    color: #1B3764;
+    font-size: 24px;
+    top: -35px;
+    left: 28px;
+    position: absolute;
+    font-weight: 700;
+}
+
+.atomicContainerDescSubTitle {
+    font-size: 18px;
+    color: #969AA0;
+    font-weight: 400;
+    font-family: Inter;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+}
+
+.atomicContainerDescButton {
+    border: 1px solid red;
+    color: #1B3764;
+    width: 230px;
+    height: 55px;
+    margin-top: 30px;
+    border: 2px solid #FFCA42;
+    background-color: transparent;
 }

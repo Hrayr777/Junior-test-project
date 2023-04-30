@@ -3,6 +3,7 @@
     height: 396px;
     background-color: white;
     box-shadow: gray 1px 1px 1px 1px;
+    border: 4px solid #DBE1E9;
     position: relative;
 }
 
