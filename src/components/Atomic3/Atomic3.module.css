@@ -1,5 +1,158 @@
 .atomicContainer {
     width: 292px;
     height: 396px;
-    background-color: red;
+    background-color: F9FBFF;
+    border: 12px solid #DBE1E9;
+}
+
+.atomicDesc {
+    width: 230px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+}
+
+.atomicDescFirstLine {
+    width: 200px;
+    height: 15px;
+    background-color: #D0A129;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+
+.atomicDescSecondLine {
+    width: 120px;
+    height: 15px;
+    background-color: #D0A129;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+
+.atomicDescFirstLineText {
+    font-size: 35px;
+    position: absolute;
+    top: -52px;
+    left: 5px;
+    font-weight: bold;
+    color: #1B3764;
+}
+
+.atomicDescSecondLineText {
+    font-size: 35px;
+    position: absolute;
+    font-weight: bold;
+    color: #1B3764;
+    top: -52px;
+    left: 3px;
+}
+
+.atomicSubTitle {
+    font-style: italic;
+    font-size: 10px;
+    color: #1B3764;
+    text-align: center;
+    width: 230px;
+    margin: 10px auto;
+}
+
+.atomicDescLine {
+    width: 60px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.atomicDescLineLeft {
+    width: 20px;
+    border-top: 1px solid #1B3764;
+}
+
+.atomicDescLineSpan {
+    color: #1B3764;
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.atomicDescLineRight {
+    width: 20px;
+    border-top: 1px solid #1B3764;
+}
+
+.atomicDescFon {
+    width: 240px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+}
+
+.atomicDescLampImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.atomicDescParentCircle {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: gold;
+    position: absolute;
+    top: -40%;
+    left: 60%;
+    transform: translateY(90%);
+}
+
+.atomicDescChildCircle {
+    width: 72px;
+    height: 72px;
+    background-color: #FFCA42;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+
+.atomicDescCircleText1 {
+    font-size: 10px;
+    color: #1B3764;
+    text-align: center;
+}
+
+.atomicDescCircleText2 {
+    font-size: 7px;
+    color: #1B3764;
+    text-align: center;
+    font-style: italic;
+}
+
+.atomicDescTitleDiv {
+    width: 195px;
+    text-align: center;
+    margin: -30px auto 0;
+}
+
+.atomicDescTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1B3764;
+}
+
+.atomicDescSubTitle {
+    font-size: 10px;
+    font-style: italic;
+    color: #1B3764;
 }
