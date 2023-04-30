@@ -1,7 +1,13 @@
-import "./App.css";
+import styles from './App.module.css';
+import Atomic from "./components/Atomic";
 
 function App() {
-  return <div>Hello World</div>;
+
+  return(
+      <div className={styles.wrapper}>
+          <Atomic />
+      </div>
+  )
 }
 
 export default App;

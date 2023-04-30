@@ -1,0 +1,79 @@
+.atomicContainer {
+    width: 292px;
+    height: 396px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    position: relative;
+}
+
+.atomicFon {
+    max-height: 150px;
+}
+
+.atomicTitle {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.atomicText {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: #1B3764;
+}
+
+.atomicTrees {
+    position: absolute;
+    left: 23px;
+}
+
+.atomicSubTitle {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    left: 100px;
+    font-weight: bold;
+    color: #1B3764;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+.atomicSpan {
+    color: #D0A129;
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.atomicCircleDiv {
+    display: flex;
+}
+
+.atomicCircle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFCA42;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+span {
+    position: absolute;
+    bottom: 12px;
+}
+
+.spanLeft {
+    left: 5px;
+}
+
+.spanRight {
+    right: 5px;
+}

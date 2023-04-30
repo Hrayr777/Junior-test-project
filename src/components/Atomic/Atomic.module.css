@@ -1,0 +1,32 @@
+.atomic {
+    width: 100%;
+    min-height: 827px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F8FC;
+}
+
+.atomicDesc {
+    background-color: transparent;
+}
+
+.title {
+    font-size: 45px;
+    color: wheat;
+    line-height: 54px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.line {
+    border: 3px solid #FFCA42;
+    width: 55px;
+    margin: 0 auto;
+}
+
+.atomicContent {
+    width: 1315px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
