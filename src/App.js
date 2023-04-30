@@ -1,6 +1,7 @@
 import styles from './App.module.css';
 import Atomic from "./components/Atomic";
 import About from "./components/About";
+import Contacts from "./components/Contacts";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <div className={styles.wrapper}>
           <Atomic />
           <About />
+          <Contacts />
       </div>
   )
 }

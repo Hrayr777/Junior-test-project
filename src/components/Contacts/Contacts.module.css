@@ -1,0 +1,57 @@
+.contacts {
+    width: 1300px;
+    min-height: 505px;
+    margin: 20px auto;
+    background-color: #FFCA42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsContent {
+    width: 840px;
+    height: 265px;
+    text-align: center;
+}
+
+.contactsTitle {
+    font-size: 45px;
+    color: #1B3764;
+    line-height: 29px;
+}
+
+.contactsLine {
+    width: 55px;
+    border-bottom: 3px solid #1B3764;
+    margin: 0 auto;
+}
+
+.contactsSubTitle {
+    font-size: 19px;
+    color: #1B3764;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 29px;
+}
+
+.contactsForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactsFormInput {
+    width: 490px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.contactsFormButton {
+    width: 300px;
+    padding: 10px 0;
+    background-color: #1B3764;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    border: none;
+}
