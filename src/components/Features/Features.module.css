@@ -1,0 +1,13 @@
+.Features{
+   height: 385px;
+   background-color: #FFCA42;
+   margin-top: 152px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap:90px;
+    height: 215px;
+    padding-top: 85px;
+}

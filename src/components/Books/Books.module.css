@@ -1,0 +1,104 @@
+  .Books {
+         height: 1056px;
+         margin-top: 150px;
+  }
+
+  .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 86px;
+      width: 1297px;
+      height: 650px;
+   }
+
+  img {
+      width: 580px;
+      height: 650px;
+  }
+
+  .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      /* padding: 0px; */
+      gap: 34px;
+      width: 631px;
+      height: 604px;
+    }
+
+  .up {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      /* padding: 0px; */
+      gap: 26px;
+      width: 631px;
+      height: 505px;
+  }
+
+  .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      width: 345px;
+      height: 83px;
+  }
+
+  .up p {
+      font-family: 'Cardo', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 120%;
+      letter-spacing: -0.02em;
+      color: #1B3764;
+  }
+
+  span {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 170%;
+      /* or 51px */
+      letter-spacing: -0.01em;
+      color: #FFCA42;
+  }
+
+  .second{
+    font-size: 20px!important;
+  }
+
+  .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      width: 631px;
+      height: 396px;
+  }
+
+  .text p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 180%;
+      letter-spacing: -0.01em;
+      color: #969AA0;
+  }
+
+  .publisher {
+      list-style: none;
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 250%;
+      letter-spacing: -0.01em;
+      color: #969AA0;
+  }
+
+  
