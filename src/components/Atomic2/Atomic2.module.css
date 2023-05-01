@@ -1,6 +1,7 @@
 .atomicContainer {
     width: 292px;
     height: 396px;
+    flex-wrap: wrap;
 }
 
 .atomicContainerTitle {
@@ -64,11 +65,16 @@
 }
 
 .atomicContainerDescButton {
-    border: 1px solid red;
     color: #1B3764;
     width: 230px;
     height: 55px;
     margin-top: 30px;
     border: 2px solid #FFCA42;
     background-color: transparent;
+}
+
+@media (max-width: 650px) {
+    .atomicContainer {
+        width: 320px;
+    }
 }

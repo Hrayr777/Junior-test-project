@@ -1,8 +1,9 @@
 .atomicContainer {
     width: 292px;
     height: 396px;
-    background-color: F9FBFF;
+    background-color: #F9FBFF;
     border: 12px solid #DBE1E9;
+    flex-wrap: wrap;
 }
 
 .atomicDesc {
@@ -155,4 +156,10 @@
     font-size: 10px;
     font-style: italic;
     color: #1B3764;
+}
+
+@media (max-width: 650px) {
+    .atomicContainer {
+        width: 320px;
+    }
 }

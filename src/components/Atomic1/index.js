@@ -5,7 +5,7 @@ import { images } from "../../images";
 const Atomic1 = () => {
     return (
         <div className={styles.atomicContainer}>
-            <div className={styles.atomicFon}><img src={images.atomicFon}/></div>
+            <div className={styles.atomicFon}><img className={styles.atomicFonImg} src={images.atomicFon}/></div>
             <div><img className={styles.atomicTitle} src={images.atomicTitle}/></div>
             <p className={styles.atomicText}>A long established fact that a reader normal as well distribution of letters</p>
             <div className={styles.atomicTrees}><img src={images.trees}/></div>

@@ -17,10 +17,11 @@
 }
 
 .aboutDesc {
-    width: 1300px;
+    width: 90%;
     margin: 20px auto;
     min-height: 220px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -55,4 +56,98 @@
     font-size: 18px;
     font-weight: 400;
     color: #969AA0;
+}
+
+@media (max-width: 1200px) {
+    .aboutDesc {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+    }
+
+    .aboutDescContent {
+        width: 26%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .aboutDesc {
+        left: 65%;
+        transform: translateX(-50%);
+    }
+
+    .aboutDescContent {
+        width: 45%;
+    }
+
+    .aboutTitle {
+        position: relative;
+        left: 70%;
+        transform: translateX(-50%);
+    }
+
+    .aboutLine {
+        position: relative;
+        left: 25%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutDesc {
+        left: 75%;
+        transform: translateX(-50%);
+    }
+
+    .aboutDescContent {
+        width: 65%;
+    }
+
+    .aboutTitle {
+        left: 80%;
+        transform: translateX(-50%);
+    }
+
+    .aboutLine {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 650px) {
+    .aboutDesc {
+        left: 85%;
+        transform: translateX(-50%);
+    }
+
+    .aboutDescContent {
+        width: 75%;
+    }
+
+    .aboutLine {
+        left: 45%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 550px) {
+    .aboutDesc {
+        left: 95%;
+        transform: translateX(-50%);
+    }
+
+    .aboutDescContent {
+        width: 85%;
+    }
+
+    .aboutTitle {
+        left: 100%;
+        transform: translateX(-50%);
+    }
+
+    .aboutLine {
+        left: 55%;
+        transform: translateX(-50%);
+    }
 }

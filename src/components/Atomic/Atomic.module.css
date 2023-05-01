@@ -8,6 +8,8 @@
 }
 
 .atomicDesc {
+    margin: 0 auto;
+    width: 500px;
     background-color: transparent;
 }
 
@@ -26,8 +28,74 @@
 }
 
 .atomicContent {
-    width: 1300px;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px;
     margin: 20px auto;
 }
+
+@media (max-width: 1460px) {
+    .atomicContent {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1250px) {
+    .atomic {
+        position: relative;
+        left: 55%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1090px) {
+    .atomicContent {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1050px) {
+    .atomic {
+        left: 65%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 805px) {
+    .atomic {
+        left: 80%;
+        transform: translateX(-50%);
+    }
+    .atomicContent {
+        width: 60%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+
