@@ -1,0 +1,139 @@
+@import "../../variables.module.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background: $blue;
+  padding: 115px 0;
+  .container {
+    max-width: 1330px;
+    padding: 0 15px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    .content {
+      .title {
+        .dec {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          max-width: 209px;
+          height: 37px;
+
+          .line {
+            width: 34px;
+            border: 1px solid $yellow;
+          }
+          .subTitle {
+            font-family: "Cardo";
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            margin: 0 auto;
+            letter-spacing: -0.02em;
+            color: $bg;
+          }
+        }
+        .h1 {
+          max-width: 614px;
+          font-family: "Cardo";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 65px;
+          line-height: 110%;
+          letter-spacing: -0.02em;
+          color: $bg;
+        }
+        .content__text {
+          max-width: 575px;
+          height: 62px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 180%;
+          letter-spacing: -0.01em;
+          color: #b4c7e7;
+          margin-top: 32px;
+        }
+      }
+      .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 414px;
+        height: 65px;
+        justify-content: space-between;
+        margin-top: 49px;
+        .btn__link {
+          max-width: 157px;
+          height: 27px;
+          font-family: "Cardo";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          line-height: 125%;
+          text-align: center;
+          color: $bg;
+        }
+      }
+    }
+    .bookImg {
+      width: 569px;
+      height: 780px;
+      background-image: url(../../assets/images/Book.jpg);
+      object-fit: cover;
+    }
+    .list {
+      width: 580px;
+      height: 63px;
+      margin-top: 49px;
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  
+        li {
+          &::marker {
+            width: 16px;
+            height: 16px;
+            color: $yellow;
+          }
+          list-style-type: disc;
+
+.describe{
+          font-family: "Cardo";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          letter-spacing: -0.01em;
+          color: #ffffff;
+}
+          p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: -0.01em;
+            color: #b4c7e7;
+          }
+        }
+        li::marker{
+          border-radius: 10px; 
+padding: 10px;
+margin-bottom: 10px;
+background-color: $yellow;
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../variables.module.scss";
+.btn{
+padding: 20px 56px 21px;
+width: 220px;
+height: 65px;
+background: $yellow;
+font-family: "Cardo";
+          font-weight: 700;
+          font-size: 19px;
+          text-align: center;
+          color:$blue;
+}
+
+.btn1{
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 53px 21px;
+width: 220px;
+height: 65px;
+border: 1px solid $yellow;
+}

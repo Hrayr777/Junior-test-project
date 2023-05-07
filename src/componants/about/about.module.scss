@@ -1,0 +1,142 @@
+@import "../../variables.module.scss";
+.about {
+  padding: 310px 150px 150px 150px;
+  margin-right: 102px;
+  background: $bg;
+  display: flex;
+  justify-content: center;
+  .author {
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .img {
+      width: 590px;
+      height: 690px;
+      .border {
+        box-sizing: border-box;
+        width: 550px;
+        height: 650px;
+        border: 12px solid $yellow;
+        img {
+          width: 550px;
+          height: 650px;
+          margin-left: -40px;
+          margin-top: -40px;
+        }
+      }
+    }
+
+    .content {
+      width: 560px;
+      height: 568px;
+      margin-left: 40px;
+
+      .titleContent {
+        width: 567px;
+        height: 226px;
+        .title {
+          font-family: "Cardo";
+          font-weight: 700;
+          font-size: 45px;
+          letter-spacing: -0.02em;
+          color: $blue;
+        }
+        hr {
+          width: 55px;
+          margin: 22px 0;
+          border: 3px solid $yellow;
+        }
+        .subTitle {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 180%;
+          letter-spacing: -0.01em;
+          color: #969aa0;
+        }
+      }
+      .list {
+        max-width: 550px;
+        height: 97px;
+        margin: 45px 0px;
+        ul {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          hr {
+            width: 88px;
+            height: 0px;
+            border: 1px solid $yellow;
+            transform: rotate(90deg);
+            margin: 45px 0px;
+          }
+          .listItem {
+            list-style-type: none;
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: -0.01em;
+            color: #969aa0;
+            .listTitle {
+              font-family: "Cardo";
+              font-weight: 700;
+              font-size: 55px;
+              line-height: 120%;
+              letter-spacing: -0.02em;
+              color: $blue;
+            }
+          }
+        }
+      }
+      .details {
+        display: flex;
+        max-width: 477px;
+        height: 160px;
+        align-items: center;
+        justify-content: center;
+        background: $blue;
+        .detailsCont {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          width: 441px;
+          height: 130px;
+          .qr {
+            display: flex;
+            width: 130px;
+            height: 130px;
+            background: #ffffff;
+            align-items: center;
+            justify-content: center;
+          }
+          .contact {
+            width: 274px;
+            height: 101px;
+            h3 {
+              font-family: "Cardo";
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 120%;
+              letter-spacing: -0.02em;
+              color: $yellow;
+            }
+            .address {
+              font-family: "Inter";
+              font-weight: 400;
+              font-size: 19px;
+              line-height: 180%;
+              letter-spacing: -0.01em;
+
+              a {
+                text-decoration: none;
+                color: #b4c7e7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
