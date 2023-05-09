@@ -1,6 +1,7 @@
 @import "../../variables.module.scss";
 .about {
-  padding: 310px 150px 150px 150px;
+
+  padding: 150px;
   margin-right: 102px;
   background: $bg;
   display: flex;
@@ -33,7 +34,7 @@
       margin-left: 40px;
 
       .titleContent {
-        width: 567px;
+        width: 530px;
         height: 226px;
         .title {
           font-family: "Cardo";

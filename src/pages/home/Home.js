@@ -18,7 +18,7 @@ function Home() {
             <p className={style.content__text}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
           </div>
           <div className={style.button}>
-            <Button  />
+           <Button  />
             <a className={style.btn__link} href="#" >Read Free Demo</a>
           </div>
           <div className={style.list}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./bookDes.module.scss"
-import Button from '../button/Button'
+import Button1 from '../button/Button1'
 
 function BookDes({ img, bookName, content }) {
   return (
@@ -25,7 +25,7 @@ function BookDes({ img, bookName, content }) {
             </li>
           </ul>
         </div>
-        <Button/>
+        <Button1  color={"#1B3764"}  />
       </div>
 
     </div>
